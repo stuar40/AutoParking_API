@@ -1,0 +1,59 @@
+se inicia una nueva app
+se descarga el cli de heroku
+ejecutar el comando de buildapackajes para nodejs en la pagina
+
+el repositorio teine que ser en raiz  y no en subcarpetas
+
+
+RUTAS  BASICAs
+
+TABLA DATOS
+
+get('/api/dato'
+get ('/api/dato/:datoId'
+post ('/api/dato'>>>>>>>>>>>>>>>no  funcion
+put ('/api/dato/:id_datos'
+delete ('/api/dato/:datoId'
+
+TABLA PAIS
+
+get('api/pais'
+get ('api/pais/:paisId'
+post ('api/pais'
+put ('api/pais/:id_pais'
+delete ('api/pais/:paisId'
+
+
+// ****************************************//
+TABLA ciudad
+
+get('/api/ciudad'
+get ('/api/ciudad/:ciudadId'
+post ('/api/ciudad'
+put ('/api/ciudad/:id_ciudad'
+delete ('/api/ciudad/:ciudadId'
+
+
+// ****************************************//
+TABLA UBICACION
+
+get  /api/ubicacion
+get   /api/ubicacion/:ubicacionId
+post   /api/ubicacion
+put   /api/ubicacion/:id_ubicacion
+delete   /api/ubicacion/:ubicacionId
+
+
+
+//****************************************//
+TABLA PARQUEO
+get  /api/parqueo
+get  /api/parqueo/:parqueoId
+post  /api/parqueo
+put  /api/parqueo/:id_parqueo
+delete  /api/parqueo/:parqueoId
+
+
+//METODO para sub consultas
+
+api.get ('/subConsultas/:subConsultasId', subConsultasController.getsubConsulta)
