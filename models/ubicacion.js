@@ -11,7 +11,7 @@ const ubicacion = {
     },
     addUbicacion: function(ubicacion, callback) {
 
-        return db.query("Insert into ubicacion values(?,?,?,?,?)", [ubicacion.id_ubicacion, ubicacion.coordenadas, ubicacion.longitud, ubicacion.latitud. ubicacion.ciudad_idciudad], callback)
+        return db.query("Insert into ubicacion values(?,?,?,?,?)", [ubicacion.id_ubicacion, ubicacion.coordenadas, ubicacion.longitud, ubicacion.latitud, ubicacion.ciudad_idciudad], callback)
     },
     deleteUbicacion: function(ubicacionId, callback) {
         return db.query("DELETE FROM ubicacion WHERE id_ubicacion = ?", [ubicacionId], callback)
