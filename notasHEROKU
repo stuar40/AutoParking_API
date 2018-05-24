@@ -46,10 +46,10 @@ delete ('api/pais/:paisId'
 TABLA ciudad
 
 get('/api/ciudad'
-https://autoparking-beta3.herokuapp.com/api/ciudad
+https://autoparking-v1.herokuapp.com/api/ciudad
 get ('/api/ciudad/:ciudadId'
 post ('/api/ciudad'
-https://autoparking-beta3.herokuapp.com/api/ciudad/
+https://autoparking-v1.herokuapp.com/api/ciudad/
                     {
                         "id_ciudad": "3",
                         "nombre_ciudad": "Huehue",
@@ -57,7 +57,7 @@ https://autoparking-beta3.herokuapp.com/api/ciudad/
                     }
 
 put ('/api/ciudad/:id_ciudad'
-https://autoparking-beta3.herokuapp.com/api/ciudad
+https://autoparking-v1.herokuapp.com/api/ciudad
                     {
 
                         "nombre_ciudad": "Huehue",
@@ -72,18 +72,66 @@ TABLA UBICACION
 get  /api/ubicacion
 get   /api/ubicacion/:ubicacionId
 post   /api/ubicacion
+https://autoparking-v1.herokuapp.com/api/ubicacion
+            {
+                "id_ubicacion": "3",
+                "coordenadas": "22",
+                "longitud": "3",
+                "latitud": "4",
+                "ciudad_idciudad": "1"
+            }
+
+
 put   /api/ubicacion/:id_ubicacion
+            https://autoparking-v1.herokuapp.com/api/ubicacion/3
+            coordenadas
+            longitud
+            latitud
+            ciudad_idciudad
+
 delete   /api/ubicacion/:ubicacionId
+https://autoparking-v1.herokuapp.com/api/ubicacion/2
 
 
 
 //******//
 TABLA PARQUEO
 get  /api/parqueo
+https://autoparking-v1.herokuapp.com/api/parqueo
+
 get  /api/parqueo/:parqueoId
+https://autoparking-v1.herokuapp.com/api/parqueo/10
+
 post  /api/parqueo
+https://autoparking-v1.herokuapp.com/api/parqueo
+                {
+                    "id_parqueo": "5",
+                    "nombre_parqueo": "22",
+                    "direccion_parqueo": "3",
+                    "lugares_disponibles": "4",
+                    "total_lugares": "1",
+                    "user_parqueo": "erwin",
+                    "pass_parqueo": "erwin",
+                    "ubicacion_idubicacion": "3",
+                    "datos_iddatos": "1"
+                }
+
+
 put  /api/parqueo/:id_parqueo
+https://autoparking-v1.herokuapp.com/api/parqueo/10
+                  "nombre_parqueo": "22",
+                  "direccion_parqueo": "3",
+                  "lugares_disponibles": "4",
+                  "total_lugares": "1",
+                  "user_parqueo": "erwin",
+                  "pass_parqueo": "erwin",
+                  "ubicacion_idubicacion": "3",
+                  "datos_iddatos": "1"
+
+
 delete  /api/parqueo/:parqueoId
+
+https://autoparking-v1.herokuapp.com/api/parqueo/10
 
 
 //METODO para sub consultas
