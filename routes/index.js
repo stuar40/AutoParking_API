@@ -63,6 +63,8 @@ api.delete ('/parqueo/:parqueoId', parqueoController.deleteParqueo)
 const subConsultasController = require ('../controllers/subConsultas')
 api.get ('/subConsultas/:subConsultasId', subConsultasController.getsubConsulta)
 
+const referenciasController = require ('../controllers/referencias')
+api.get ('/referencias/:referenciasId', referenciasController.getReferencia)
 //.............................................//
 
 module.exports = api
