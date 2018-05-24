@@ -18,7 +18,7 @@ const ubicacion = {
     },
     updateUbicacion: function(ubicacionId, ubicacion, callback) {
 
-        return db.query("UPDATE ubicacion SET coordenadas=?, longitud=?, latitud= ?, ciudad_idciudad=? usr_parqueo_id_parqueo=? ,usr_auto_idusr_auto=? WHERE id_ubicacion=?", [ubicacion.coordenadas, ubicacion.longitud, ubicacion.latitud, ubicacion.ciudad_idciudad, ubicacion.usr_parqueo_id_parqueo, ubicacion.usr_auto_idusr_auto, ubicacionId], callback)
+        return db.query("UPDATE ubicacion SET coordenadas=?, longitud=?, latitud= ?, ciudad_idciudad=? usr_parqueo_id_parqueo=?  WHERE id_ubicacion=?", [ubicacion.coordenadas, ubicacion.longitud, ubicacion.latitud, ubicacion.ciudad_idciudad, ubicacion.usr_parqueo_id_parqueo,  ubicacionId], callback)
     }
 };
 module.exports = ubicacion;
