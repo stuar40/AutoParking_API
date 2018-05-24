@@ -7,7 +7,7 @@ const parqueo = {
         return db.query("SELECT * FROM usr_parqueo", callback)
     },
     getParqueoById: function(parqueoId, callback) {
-        return db.query("SELECT * FROM autoparking.usr_parqueo WHERE id_parqueo = ?", [parqueoId], callback)
+        return db.query("SELECT * FROM usr_parqueo WHERE id_parqueo = ?", [parqueoId], callback)
     },
     addParqueo: function(usr_parqueo, callback) {
 
