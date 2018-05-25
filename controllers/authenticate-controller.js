@@ -1,7 +1,7 @@
 'use strict'
 
 const jwt=require('jsonwebtoken');
-const connection = require('./../config');
+const connection = require('../config');
 module.exports.authenticate=function(req,res){
     var user_parqueo=req.body.user_parqueo;
     var pass_parqueo=req.body.pass_parqueo;
