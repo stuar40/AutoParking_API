@@ -1,0 +1,20 @@
+<<<<<<Repositorio GIT Api AutoParking >>>>>>>
+
+https://github.com/stuar40/AutoParking_API.git
+
+
+
+
+
+
+
+<<<<Repositorio git Beta>>>>
+
+pruebas API
+https://github.com/stuar40/pruebas_Api.git
+Beta1:
+https://github.com/stuar40/autoparking_beta1.git
+Beta 2
+https://github.com/stuar40/autoparking_beta2.git
+prueba laravel
+https://github.com/stuar40/PruebaLaravel_Api.git
