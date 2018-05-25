@@ -1,0 +1,38 @@
+Documentacion por fases
+
+Prestacion del proyecto
+Cronograma de actividades de Desarrollo
+Codigo fuente de API RestFull autoparking
+
+
+Fase 1. Propuesta de desarrollo
+a. Objetivos
+b. Descripción del proyecto
+c. Arquitectura a utilizar y definir el porqué se eligió esta arquitectura
+    i. Métodos a utilizar
+    ii. Como se documentará la API
+d. Herramientas a utilizar y definir el porqué se eligió esta herramienta
+e. Miembros del equipo
+    i. Director del proyecto
+    ii. Dueño del producto
+    iii. Equipo
+
+
+Fase 2. Diagramas
+a. UML (Casos de uso y Clases)
+b. Diseño de la BD
+
+
+Fase 3. Desarrollo del 60% de la API (Marcar en la planificación)
+a. Método GET
+b. Método POST
+c. Método PUT
+d. Método delete
+
+
+Fase 4. Entrega final
+a. Autenticación de usuarios
+b. Desarrollo del 100% de la API (Marcar en la planificación)
+c. API documentada
+d. Funcionamiento de la API con al aplicación móvil
+e. Presentación
